@@ -1,6 +1,7 @@
 const { Command } = require('commander');
 const express = require('express');
 const mongoose = require('mongoose');
+const cors = require('cors');
 const connectDB = require('./database');
 const { seedStations, deleteStations } = require('./controllers/stationController');
 const search = require('./routes/search');
@@ -8,6 +9,8 @@ const stations = require('./routes/stations');
 
 const program = new Command();
 const app = express();
+app.use(cors());
+app.use(express.json());
 const port = 3000;
 
 connectDB();
