@@ -5,8 +5,8 @@ async function seedStations() {
     {
       name: "Z Kaiwharawhara",
       address: "24 Hutt Road, Kaiwharawhara, Wellington",
-      hours: "24/7",
-      services: "Pre-order Coffee, Pay in app, Z Espress Coffee & Fresh Food, LPG SWAP'n'GO, Pay at pump, Bathrooms",
+      hours: "Monday-Sunday 24/7",
+      services: "Z Espress Coffee & Fresh Food, LPG SWAP'n'GO, Pay at pump, Bathrooms, EV Charging, Trailer Hire",
       ZX_Premium: 2.675,
       Z91_Unleaded: 1.985,
       Z_Diesel: 1.995
@@ -14,8 +14,8 @@ async function seedStations() {
     {
       name: "Z Karori",
       address: "98-100 Karori Road, Karori, Wellington",
-      hours: "24/7",
-      services: "Pre-order Coffee, Pay in app, Z Espress Coffee & Fresh Food, LPG SWAP'n'GO, Pay at pump, Bathrooms",
+      hours: "Monday-Sunday 6:00am - 10:00pm",
+      services: "Pre-order Coffee, Pay in app, LPG SWAP'n'GO, Pay at pump, Bathrooms, Car Wash",
       ZX_Premium: 2.670,
       Z91_Unleaded: 1.980,
       Z_Diesel: 1.975
@@ -23,8 +23,8 @@ async function seedStations() {
     {
       name: "Z Kingsland",
       address: "570 New North Road, Kingsland, Auckland",
-      hours: "24/7",
-      services: "Pre-order Coffee, Pay in app, Z Espress Coffee & Fresh Food, LPG SWAP'n'GO, Pay at pump, Bathrooms",
+      hours: "Monday-Sunday 24/7",
+      services: "Z Espress Coffee & Fresh Food, Pay in app, Pay at pump, Bathrooms, EV Charging, Flybuys",
       ZX_Premium: 2.669,
       Z91_Unleaded: 1.982,
       Z_Diesel: 1.987
@@ -32,8 +32,8 @@ async function seedStations() {
     {
       name: "Z Lower Hutt",
       address: "17-21 Queens Drive, Lower Hutt, Wellington",
-      hours: "24/7",
-      services: "Pre-order Coffee, Pay in app, Z Espress Coffee & Fresh Food, LPG SWAP'n'GO, Pay at pump, Bathrooms",
+      hours: "Monday-Sunday 24/7",
+      services: "Pre-order Coffee, Pay in app, Z Espress Coffee & Fresh Food, Pay at pump, Bathrooms, EV Charging, LPG SWAP'n'GO",
       ZX_Premium: 2.675,
       Z91_Unleaded: 1.985,
       Z_Diesel: 1.995
@@ -41,8 +41,8 @@ async function seedStations() {
     {
       name: "Z Lynfield",
       address: "1098 Dominion Road, Lynfield, Auckland",
-      hours: "24/7",
-      services: "Pre-order Coffee, Pay in app, Z Espress Coffee & Fresh Food, LPG SWAP'n'GO, Pay at pump, Bathrooms",
+      hours: "Monday-Sunday 24/7",
+      services: "Pre-order Coffee, Pay in app, Z Espress Coffee & Fresh Food, Pay at pump, Bathrooms, LPG SWAP'n'GO, Flybuys",
       ZX_Premium: 2.670,
       Z91_Unleaded: 1.980,
       Z_Diesel: 1.975
@@ -50,8 +50,8 @@ async function seedStations() {
     {
       name: "Z Mt Eden",
       address: "400 Dominion Road, Mt Eden, Auckland",
-      hours: "24/7",
-      services: "Pre-order Coffee, Pay in app, Z Espress Coffee & Fresh Food, LPG SWAP'n'GO, Pay at pump, Bathrooms",
+      hours: "Monday-Sunday 24/7",
+      services: "Pre-order Coffee, Pay in app, Z Espress Coffee & Fresh Food, Pay at pump, Bathrooms, LPG SWAP'n'GO, EV Charging",
       ZX_Premium: 2.669,
       Z91_Unleaded: 1.982,
       Z_Diesel: 1.987
@@ -59,8 +59,8 @@ async function seedStations() {
     {
       name: "Z Newmarket",
       address: "286 Broadway, Newmarket, Auckland",
-      hours: "24/7",
-      services: "Pre-order Coffee, Pay in app, Z Espress Coffee & Fresh Food, LPG SWAP'n'GO, Pay at pump, Bathrooms",
+      hours: "Monday-Sunday 24/7",
+      services: "Pre-order Coffee, Pay in app, Z Espress Coffee & Fresh Food, Pay at pump, Bathrooms, LPG SWAP'n'GO, Trailer Hire",
       ZX_Premium: 2.675,
       Z91_Unleaded: 1.985,
       Z_Diesel: 1.995
@@ -68,8 +68,8 @@ async function seedStations() {
     {
       name: "Z Parnell",
       address: "153 Parnell Road, Parnell, Auckland",
-      hours: "24/7",
-      services: "Pre-order Coffee, Pay in app, Z Espress Coffee & Fresh Food, LPG SWAP'n'GO, Pay at pump, Bathrooms",
+      hours: "Monday-Sunday 6:00am - 10:00pm",
+      services: "Pre-order Coffee, Pay in app, Z Espress Coffee & Fresh Food, Pay at pump, Bathrooms, LPG SWAP'n'GO, Flybuys",
       ZX_Premium: 2.670,
       Z91_Unleaded: 1.980,
       Z_Diesel: 1.975
@@ -77,8 +77,8 @@ async function seedStations() {
     {
       name: "Z Ponsonby",
       address: "28 College Hill, Ponsonby, Auckland",
-      hours: "24/7",
-      services: "Pre-order Coffee, Pay in app, Z Espress Coffee & Fresh Food, LPG SWAP'n'GO, Pay at pump, Bathrooms",
+      hours: "Monday-Sunday 6:00am - 10:00pm",
+      services: "Pre-order Coffee, Pay in app, Z Espress Coffee & Fresh Food, Pay at pump, Bathrooms, LPG SWAP'n'GO, EV Charging",
       ZX_Premium: 2.669,
       Z91_Unleaded: 1.982,
       Z_Diesel: 1.987
@@ -86,8 +86,8 @@ async function seedStations() {
     {
       name: "Z Quay Street",
       address: "108 Quay Street, Auckland CBD, Auckland",
-      hours: "24/7",
-      services: "Pre-order Coffee, Pay in app, Z Espress Coffee & Fresh Food, LPG SWAP'n'GO, Pay at pump, Bathrooms",
+      hours: "Monday-Sunday 6:00am - 10:00pm",
+      services: "Pre-order Coffee, Pay in app, Z Espress Coffee & Fresh Food, Pay at pump, Bathrooms, LPG SWAP'n'GO, Flybuys",
       ZX_Premium: 2.675,
       Z91_Unleaded: 1.985,
       Z_Diesel: 1.995
@@ -95,8 +95,8 @@ async function seedStations() {
     {
       name: "Z Riccarton Road",
       address: "88 Riccarton Road, Riccarton, Christchurch",
-      hours: "24/7",
-      services: "Pre-order Coffee, Pay in app, Z Espress Coffee & Fresh Food, LPG SWAP'n'GO, Pay at pump, Bathrooms",
+      hours: "Monday-Sunday 24/7",
+      services: "Pre-order Coffee, Pay in app, Z Espress Coffee & Fresh Food, Pay at pump, Bathrooms, LPG SWAP'n'GO, EV Charging",
       ZX_Premium: 2.670,
       Z91_Unleaded: 1.980,
       Z_Diesel: 1.975
@@ -104,8 +104,8 @@ async function seedStations() {
     {
       name: "Z Silverdale",
       address: "1 Hibiscus Coast Highway, Silverdale, Auckland",
-      hours: "24/7",
-      services: "Pre-order Coffee, Pay in app, Z Espress Coffee & Fresh Food, LPG SWAP'n'GO, Pay at pump, Bathrooms",
+      hours: "Monday-Sunday 6:00am - 10:00pm",
+      services: "Pre-order Coffee, Pay in app, Z Espress Coffee & Fresh Food, Pay at pump, Bathrooms, LPG SWAP'n'GO, Flybuys",
       ZX_Premium: 2.669,
       Z91_Unleaded: 1.982,
       Z_Diesel: 1.987
@@ -113,8 +113,8 @@ async function seedStations() {
     {
       name: "Z Takanini",
       address: "236 Great South Road, Takanini, Auckland",
-      hours: "24/7",
-      services: "Pre-order Coffee, Pay in app, Z Espress Coffee & Fresh Food, LPG SWAP'n'GO, Pay at pump, Bathrooms",
+      hours: "Monday-Sunday 6:00am - 10:00pm",
+      services: "Pre-order Coffee, Pay in app, Z Espress Coffee & Fresh Food, Pay at pump, Bathrooms, LPG SWAP'n'GO, EV Charging",
       ZX_Premium: 2.670,
       Z91_Unleaded: 1.980,
       Z_Diesel: 1.975
@@ -122,8 +122,8 @@ async function seedStations() {
     {
       name: "Z Thorndon Quay",
       address: "312 Thorndon Quay, Thorndon, Wellington",
-      hours: "24/7",
-      services: "Pre-order Coffee, Pay in app, Z Espress Coffee & Fresh Food, LPG SWAP'n'GO, Pay at pump, Bathrooms",
+      hours: "Monday-Sunday 6:00am - 10:00pm",
+      services: "Pre-order Coffee, Pay in app, Z Espress Coffee & Fresh Food, Pay at pump, Bathrooms, LPG SWAP'n'GO, Flybuys",
       ZX_Premium: 2.675,
       Z91_Unleaded: 1.985,
       Z_Diesel: 1.995
@@ -131,8 +131,8 @@ async function seedStations() {
     {
       name: "Z Valley Road",
       address: "73 Valley Road, Mt Eden, Auckland",
-      hours: "24/7",
-      services: "Pre-order Coffee, Pay in app, Z Espress Coffee & Fresh Food, LPG SWAP'n'GO, Pay at pump, Bathrooms",
+      hours: "Monday-Sunday 6:00am - 10:00pm",
+      services: "Pre-order Coffee, Pay in app, Z Espress Coffee & Fresh Food, Pay at pump, Bathrooms, LPG SWAP'n'GO, EV Charging",
       ZX_Premium: 2.669,
       Z91_Unleaded: 1.982,
       Z_Diesel: 1.987
@@ -140,8 +140,8 @@ async function seedStations() {
     {
       name: "Z Vivian Street",
       address: "203-205 Vivian Street, Wellington",
-      hours: "24/7",
-      services: "Pre-order Coffee, Pay in app, Z Espress Coffee & Fresh Food, LPG SWAP'n'GO, Pay at pump, Bathrooms",
+      hours: "Monday-Sunday 24/7",
+      services: "Pre-order Coffee, Pay in app, Z Espress Coffee & Fresh Food, Pay at pump, Bathrooms, LPG SWAP'n'GO, Flybuys",
       ZX_Premium: 2.675,
       Z91_Unleaded: 1.985,
       Z_Diesel: 1.995
@@ -149,8 +149,8 @@ async function seedStations() {
     {
       name: "Z Wairau Valley",
       address: "154 Wairau Road, Wairau Valley, Auckland",
-      hours: "24/7",
-      services: "Pre-order Coffee, Pay in app, Z Espress Coffee & Fresh Food, LPG SWAP'n'GO, Pay at pump, Bathrooms",
+      hours: "Monday-Sunday 24/7",
+      services: "Pre-order Coffee, Pay in app, Z Espress Coffee & Fresh Food, Pay at pump, Bathrooms, LPG SWAP'n'GO, EV Charging",
       ZX_Premium: 2.670,
       Z91_Unleaded: 1.980,
       Z_Diesel: 1.975
@@ -158,39 +158,20 @@ async function seedStations() {
     {
       name: "Z Warkworth",
       address: "67-69 Matakana Road, Warkworth",
-      hours: "24/7",
-      services: "Pre-order Coffee, Pay in app, Z Espress Coffee & Fresh Food, LPG SWAP'n'GO, Pay at pump, Bathrooms",
+      hours: "Monday-Sunday 6:00am - 10:00pm",
+      services: "Pre-order Coffee, Pay in app, Z Espress Coffee & Fresh Food, Pay at pump, Bathrooms, LPG SWAP'n'GO, Flybuys",
       ZX_Premium: 2.669,
       Z91_Unleaded: 1.982,
       Z_Diesel: 1.987
-    },
-    {
-      name: "Z Whangarei",
-      address: "204 Bank Street, Whangarei",
-      hours: "24/7",
-      services: "Pre-order Coffee, Pay in app, Z Espress Coffee & Fresh Food, LPG SWAP'n'GO, Pay at pump, Bathrooms",
-      ZX_Premium: 2.670,
-      Z91_Unleaded: 1.980,
-      Z_Diesel: 1.975
-    },
-    {
-      name: "Z Willis Street",
-      address: "71 Willis Street, Wellington",
-      hours: "24/7",
-      services: "Pre-order Coffee, Pay in app, Z Espress Coffee & Fresh Food, LPG SWAP'n'GO, Pay at pump, Bathrooms",
-      ZX_Premium: 2.675,
-      Z91_Unleaded: 1.985,
-      Z_Diesel: 1.995
     }
-    
   ];
   await Station.insertMany(data);
-  console.log('Data seeded!');
+  console.log('Station data seeded!');
 }
 
 async function deleteStations() {
   await Station.deleteMany({});
-  console.log('Data deleted!');
+  console.log('Station data deleted!');
 }
 
 async function search(req, res) {
