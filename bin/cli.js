@@ -25,6 +25,15 @@ async function main() {
       await deleteStations();
       mongoose.connection.close();
     });
+    
+  program
+  .command('update')
+  .description('Update station data to MongoDB')
+  .action(async () => {
+    await deleteStations();
+    await seedStations();
+    mongoose.connection.close();
+  });
 
   program.parse(process.argv);
 }
