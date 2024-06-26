@@ -11,7 +11,8 @@ const StationSchema = new mongoose.Schema({
   position: {
     lat: Number,
     lng: Number
-  }
+  },
+  station_type: String
 });
 
 const Station = mongoose.model('Station', StationSchema);

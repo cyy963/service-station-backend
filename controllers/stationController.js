@@ -10,7 +10,8 @@ async function seedStations() {
       ZX_Premium: 2.675,
       Z91_Unleaded: 1.985,
       Z_Diesel: 1.995,
-      position: { lat: -41.2588, lng: 174.7807 }
+      position: { lat: -41.2588, lng: 174.7807 },
+      station_type: "service station"
     },
     {
       name: "Z Karori",
@@ -20,7 +21,8 @@ async function seedStations() {
       ZX_Premium: 2.670,
       Z91_Unleaded: 1.980,
       Z_Diesel: 1.975,
-      position: { lat: -41.2875, lng: 174.7456 }
+      position: { lat: -41.2875, lng: 174.7456 },
+      station_type: "service station"
     },
     {
       name: "Z Kingsland",
@@ -30,7 +32,8 @@ async function seedStations() {
       ZX_Premium: 2.669,
       Z91_Unleaded: 1.982,
       Z_Diesel: 1.987,
-      position: { lat: -36.8779, lng: 174.7460 }
+      position: { lat: -36.8779, lng: 174.7460 },
+      station_type: "service station"
     },
     {
       name: "Z Lower Hutt",
@@ -40,7 +43,8 @@ async function seedStations() {
       ZX_Premium: 2.675,
       Z91_Unleaded: 1.985,
       Z_Diesel: 1.995,
-      position: { lat: -41.2103, lng: 174.9055 }
+      position: { lat: -41.2103, lng: 174.9055 },
+      station_type: "service station"
     },
     {
       name: "Z Lynfield",
@@ -50,7 +54,8 @@ async function seedStations() {
       ZX_Premium: 2.670,
       Z91_Unleaded: 1.980,
       Z_Diesel: 1.975,
-      position: { lat: -36.9136, lng: 174.7340 }
+      position: { lat: -36.9136, lng: 174.7340 },
+      station_type: "service station"
     },
     {
       name: "Z Mt Eden",
@@ -60,7 +65,8 @@ async function seedStations() {
       ZX_Premium: 2.669,
       Z91_Unleaded: 1.982,
       Z_Diesel: 1.987,
-      position: { lat: -36.8743, lng: 174.7596 }
+      position: { lat: -36.8743, lng: 174.7596 },
+      station_type: "service station"
     },
     {
       name: "Z Newmarket",
@@ -70,7 +76,8 @@ async function seedStations() {
       ZX_Premium: 2.675,
       Z91_Unleaded: 1.985,
       Z_Diesel: 1.995,
-      position: { lat: -36.8667, lng: 174.7780 }
+      position: { lat: -36.8667, lng: 174.7780 },
+      station_type: "service station"
     },
     {
       name: "Z Parnell",
@@ -80,7 +87,8 @@ async function seedStations() {
       ZX_Premium: 2.670,
       Z91_Unleaded: 1.980,
       Z_Diesel: 1.975,
-      position: { lat: -36.8550, lng: 174.7825 }
+      position: { lat: -36.8550, lng: 174.7825 },
+      station_type: "service station"
     },
     {
       name: "Z Ponsonby",
@@ -90,37 +98,38 @@ async function seedStations() {
       ZX_Premium: 2.669,
       Z91_Unleaded: 1.982,
       Z_Diesel: 1.987,
-      position: { lat: -36.8509, lng: 174.7483 }
+      position: { lat: -36.8509, lng: 174.7483 },
+      station_type: "service station"
     },
     {
       name: "Z Quay Street",
       address: "108 Quay Street, Auckland CBD, Auckland",
       hours: "Monday-Sunday 6:00am - 10:00pm",
       services: "Pre-order Coffee, Pay in app, Z Espress Coffee & Fresh Food, Pay at pump, Bathrooms, LPG SWAP'n'GO, Flybuys",
-      ZX_Premium: 2.675,
       Z91_Unleaded: 1.985,
       Z_Diesel: 1.995,
-      position: { lat: -36.8441, lng: 174.7669 }
+      position: { lat: -36.8441, lng: 174.7669 },
+      station_type: "service station"
     },
     {
       name: "Z Riccarton Road",
       address: "88 Riccarton Road, Riccarton, Christchurch",
       hours: "Monday-Sunday 24/7",
       services: "Pre-order Coffee, Pay in app, Z Espress Coffee & Fresh Food, Pay at pump, Bathrooms, LPG SWAP'n'GO, EV Charging",
-      ZX_Premium: 2.670,
       Z91_Unleaded: 1.980,
       Z_Diesel: 1.975,
-      position: { lat: -43.5309, lng: 172.6078 }
+      position: { lat: -43.5309, lng: 172.6078 },
+      station_type: "service station"
     },
     {
       name: "Z Silverdale",
       address: "1 Hibiscus Coast Highway, Silverdale, Auckland",
       hours: "Monday-Sunday 6:00am - 10:00pm",
       services: "Pre-order Coffee, Pay in app, Z Espress Coffee & Fresh Food, Pay at pump, Bathrooms, LPG SWAP'n'GO, Flybuys",
-      ZX_Premium: 2.669,
       Z91_Unleaded: 1.982,
       Z_Diesel: 1.987,
-      position: { lat: -36.6133, lng: 174.6780 }
+      position: { lat: -36.6133, lng: 174.6780 },
+      station_type: "service station"
     },
     {
       name: "Z Takanini",
@@ -129,8 +138,8 @@ async function seedStations() {
       services: "Pre-order Coffee, Pay in app, Z Espress Coffee & Fresh Food, Pay at pump, Bathrooms, LPG SWAP'n'GO, EV Charging",
       ZX_Premium: 2.670,
       Z91_Unleaded: 1.980,
-      Z_Diesel: 1.975,
-      position: { lat: -37.0488, lng: 174.9041 }
+      position: { lat: -37.0488, lng: 174.9041 },
+      station_type: "service station"
     },
     {
       name: "Z Thorndon Quay",
@@ -139,18 +148,8 @@ async function seedStations() {
       services: "Pre-order Coffee, Pay in app, Z Espress Coffee & Fresh Food, Pay at pump, Bathrooms, LPG SWAP'n'GO, Flybuys",
       ZX_Premium: 2.675,
       Z91_Unleaded: 1.985,
-      Z_Diesel: 1.995,
-      position: { lat: -41.2775, lng: 174.7772 }
-    },
-    {
-      name: "Z Valley Road",
-      address: "73 Valley Road, Mt Eden, Auckland",
-      hours: "Monday-Sunday 6:00am - 10:00pm",
-      services: "Pre-order Coffee, Pay in app, Z Espress Coffee & Fresh Food, Pay at pump, Bathrooms, LPG SWAP'n'GO, EV Charging",
-      ZX_Premium: 2.669,
-      Z91_Unleaded: 1.982,
-      Z_Diesel: 1.987,
-      position: { lat: -36.8745, lng: 174.7601 }
+      position: { lat: -41.2775, lng: 174.7772 },
+      station_type: "service station"
     },
     {
       name: "Z Vivian Street",
@@ -159,8 +158,8 @@ async function seedStations() {
       services: "Pre-order Coffee, Pay in app, Z Espress Coffee & Fresh Food, Pay at pump, Bathrooms, LPG SWAP'n'GO, Flybuys",
       ZX_Premium: 2.675,
       Z91_Unleaded: 1.985,
-      Z_Diesel: 1.995,
-      position: { lat: -41.2953, lng: 174.7701 }
+      position: { lat: -41.2953, lng: 174.7701 },
+      station_type: "service station"
     },
     {
       name: "Z Wairau Valley",
@@ -170,7 +169,8 @@ async function seedStations() {
       ZX_Premium: 2.670,
       Z91_Unleaded: 1.980,
       Z_Diesel: 1.975,
-      position: { lat: -36.7685, lng: 174.7386 }
+      position: { lat: -36.7685, lng: 174.7386 },
+      station_type: "truck stop"
     },
     {
       name: "Z Warkworth",
@@ -180,7 +180,8 @@ async function seedStations() {
       ZX_Premium: 2.669,
       Z91_Unleaded: 1.982,
       Z_Diesel: 1.987,
-      position: { lat: -36.3985, lng: 174.6634 }
+      position: { lat: -36.3985, lng: 174.6634 },
+      station_type: "truck stop"
     },
     {
       name: "Z Whangarei",
@@ -190,7 +191,8 @@ async function seedStations() {
       ZX_Premium: 2.670,
       Z91_Unleaded: 1.980,
       Z_Diesel: 1.975,
-      position: { lat: -35.7213, lng: 174.3237 }
+      position: { lat: -35.7213, lng: 174.3237 },
+      station_type: "truck stop"
     },
     {
       name: "Z Willis Street",
@@ -200,7 +202,8 @@ async function seedStations() {
       ZX_Premium: 2.675,
       Z91_Unleaded: 1.985,
       Z_Diesel: 1.995,
-      position: { lat: -41.2889, lng: 174.7737 }
+      position: { lat: -41.2889, lng: 174.7737 },
+      station_type: "truck stop"
     }
   ];
   await Station.insertMany(data);
