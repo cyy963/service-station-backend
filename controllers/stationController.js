@@ -42,7 +42,6 @@ async function seedStations() {
       services: "Pre-order Coffee, Pay in app, Z Espress Coffee & Fresh Food, Pay at pump, Bathrooms, EV Charging, LPG SWAP'n'GO",
       ZX_Premium: 2.675,
       Z91_Unleaded: 1.985,
-      Z_Diesel: 1.995,
       position: { lat: -41.2103, lng: 174.9055 },
       station_type: "service station"
     },
@@ -75,7 +74,6 @@ async function seedStations() {
       services: "Pre-order Coffee, Pay in app, Z Espress Coffee & Fresh Food, Pay at pump, Bathrooms, LPG SWAP'n'GO, Trailer Hire",
       ZX_Premium: 2.675,
       Z91_Unleaded: 1.985,
-      Z_Diesel: 1.995,
       position: { lat: -36.8667, lng: 174.7780 },
       station_type: "service station"
     },
