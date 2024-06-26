@@ -212,6 +212,27 @@ async function deleteStations() {
   console.log('Station data deleted!');
 }
 
+async function getStations(req, res) {
+  try {
+    const stations = await Station.find({});
+    res.json(stations);
+  } catch (err) {
+    res.status(500).send(err.message);
+  }
+}
+
+async function getStationById(req, res) {
+  try {
+    const { id } = req.params;
+    const station = await Station.findById(id);
+    if (!station) {
+      return res.status(404).send("Station not found");
+    }
+    res.json(station);
+  } catch (err) {
+    res.status(500).send(err.message);
+  }
+}
 async function search(req, res) {
   console.log("Search API has been hit!");
   const { query } = req.query;
