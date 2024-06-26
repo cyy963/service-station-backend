@@ -10,8 +10,7 @@ async function seedStations() {
       ZX_Premium: 2.675,
       Z91_Unleaded: 1.985,
       Z_Diesel: 1.995,
-      latitude: -41.2588,
-      longitude: 174.7807
+      position: { lat: -41.2588, lng: 174.7807 }
     },
     {
       name: "Z Karori",
@@ -21,8 +20,7 @@ async function seedStations() {
       ZX_Premium: 2.670,
       Z91_Unleaded: 1.980,
       Z_Diesel: 1.975,
-      latitude: -41.2875,
-      longitude: 174.7456
+      position: { lat: -41.2875, lng: 174.7456 }
     },
     {
       name: "Z Kingsland",
@@ -32,8 +30,7 @@ async function seedStations() {
       ZX_Premium: 2.669,
       Z91_Unleaded: 1.982,
       Z_Diesel: 1.987,
-      latitude: -36.8779,
-      longitude: 174.7460
+      position: { lat: -36.8779, lng: 174.7460 }
     },
     {
       name: "Z Lower Hutt",
@@ -43,8 +40,7 @@ async function seedStations() {
       ZX_Premium: 2.675,
       Z91_Unleaded: 1.985,
       Z_Diesel: 1.995,
-      latitude: -41.2103,
-      longitude: 174.9055
+      position: { lat: -41.2103, lng: 174.9055 }
     },
     {
       name: "Z Lynfield",
@@ -54,8 +50,7 @@ async function seedStations() {
       ZX_Premium: 2.670,
       Z91_Unleaded: 1.980,
       Z_Diesel: 1.975,
-      latitude: -36.9136,
-      longitude: 174.7340
+      position: { lat: -36.9136, lng: 174.7340 }
     },
     {
       name: "Z Mt Eden",
@@ -65,8 +60,7 @@ async function seedStations() {
       ZX_Premium: 2.669,
       Z91_Unleaded: 1.982,
       Z_Diesel: 1.987,
-      latitude: -36.8743,
-      longitude: 174.7596
+      position: { lat: -36.8743, lng: 174.7596 }
     },
     {
       name: "Z Newmarket",
@@ -76,8 +70,7 @@ async function seedStations() {
       ZX_Premium: 2.675,
       Z91_Unleaded: 1.985,
       Z_Diesel: 1.995,
-      latitude: -36.8667,
-      longitude: 174.7780
+      position: { lat: -36.8667, lng: 174.7780 }
     },
     {
       name: "Z Parnell",
@@ -87,8 +80,7 @@ async function seedStations() {
       ZX_Premium: 2.670,
       Z91_Unleaded: 1.980,
       Z_Diesel: 1.975,
-      latitude: -36.8550,
-      longitude: 174.7825
+      position: { lat: -36.8550, lng: 174.7825 }
     },
     {
       name: "Z Ponsonby",
@@ -98,8 +90,7 @@ async function seedStations() {
       ZX_Premium: 2.669,
       Z91_Unleaded: 1.982,
       Z_Diesel: 1.987,
-      latitude: -36.8509,
-      longitude: 174.7483
+      position: { lat: -36.8509, lng: 174.7483 }
     },
     {
       name: "Z Quay Street",
@@ -109,8 +100,7 @@ async function seedStations() {
       ZX_Premium: 2.675,
       Z91_Unleaded: 1.985,
       Z_Diesel: 1.995,
-      latitude: -36.8441,
-      longitude: 174.7669
+      position: { lat: -36.8441, lng: 174.7669 }
     },
     {
       name: "Z Riccarton Road",
@@ -120,8 +110,7 @@ async function seedStations() {
       ZX_Premium: 2.670,
       Z91_Unleaded: 1.980,
       Z_Diesel: 1.975,
-      latitude: -43.5309,
-      longitude: 172.6078
+      position: { lat: -43.5309, lng: 172.6078 }
     },
     {
       name: "Z Silverdale",
@@ -131,8 +120,7 @@ async function seedStations() {
       ZX_Premium: 2.669,
       Z91_Unleaded: 1.982,
       Z_Diesel: 1.987,
-      latitude: -36.6133,
-      longitude: 174.6780
+      position: { lat: -36.6133, lng: 174.6780 }
     },
     {
       name: "Z Takanini",
@@ -142,8 +130,7 @@ async function seedStations() {
       ZX_Premium: 2.670,
       Z91_Unleaded: 1.980,
       Z_Diesel: 1.975,
-      latitude: -37.0488,
-      longitude: 174.9041
+      position: { lat: -37.0488, lng: 174.9041 }
     },
     {
       name: "Z Thorndon Quay",
@@ -153,8 +140,7 @@ async function seedStations() {
       ZX_Premium: 2.675,
       Z91_Unleaded: 1.985,
       Z_Diesel: 1.995,
-      latitude: -41.2775,
-      longitude: 174.7772
+      position: { lat: -41.2775, lng: 174.7772 }
     },
     {
       name: "Z Valley Road",
@@ -164,8 +150,7 @@ async function seedStations() {
       ZX_Premium: 2.669,
       Z91_Unleaded: 1.982,
       Z_Diesel: 1.987,
-      latitude: -36.8745,
-      longitude: 174.7601
+      position: { lat: -36.8745, lng: 174.7601 }
     },
     {
       name: "Z Vivian Street",
@@ -175,8 +160,7 @@ async function seedStations() {
       ZX_Premium: 2.675,
       Z91_Unleaded: 1.985,
       Z_Diesel: 1.995,
-      latitude: -41.2953,
-      longitude: 174.7701
+      position: { lat: -41.2953, lng: 174.7701 }
     },
     {
       name: "Z Wairau Valley",
@@ -186,8 +170,7 @@ async function seedStations() {
       ZX_Premium: 2.670,
       Z91_Unleaded: 1.980,
       Z_Diesel: 1.975,
-      latitude: -36.7685,
-      longitude: 174.7386
+      position: { lat: -36.7685, lng: 174.7386 }
     },
     {
       name: "Z Warkworth",
@@ -197,8 +180,7 @@ async function seedStations() {
       ZX_Premium: 2.669,
       Z91_Unleaded: 1.982,
       Z_Diesel: 1.987,
-      latitude: -36.3985,
-      longitude: 174.6634
+      position: { lat: -36.3985, lng: 174.6634 }
     },
     {
       name: "Z Whangarei",
@@ -208,8 +190,7 @@ async function seedStations() {
       ZX_Premium: 2.670,
       Z91_Unleaded: 1.980,
       Z_Diesel: 1.975,
-      latitude: -35.7213,
-      longitude: 174.3237
+      position: { lat: -35.7213, lng: 174.3237 }
     },
     {
       name: "Z Willis Street",
@@ -219,8 +200,7 @@ async function seedStations() {
       ZX_Premium: 2.675,
       Z91_Unleaded: 1.985,
       Z_Diesel: 1.995,
-      latitude: -41.2889,
-      longitude: 174.7737
+      position: { lat: -41.2889, lng: 174.7737 }
     }
   ];
   await Station.insertMany(data);

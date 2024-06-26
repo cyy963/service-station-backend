@@ -7,7 +7,11 @@ const StationSchema = new mongoose.Schema({
   services: String,
   ZX_Premium: Number,
   Z91_Unleaded: Number,
-  Z_Diesel: Number
+  Z_Diesel: Number,
+  position: {
+    lat: Number,
+    lng: Number
+  }
 });
 
 const Station = mongoose.model('Station', StationSchema);
