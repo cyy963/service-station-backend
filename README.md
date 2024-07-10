@@ -14,7 +14,7 @@ This is a project based on Z, a fuel provider in New Zealand. It allows users to
 
 1. **Clone the Repository:**
    ```sh
-   git clone https://github.com/cyy963/mr-lvl5-m5-backend
+   git clone https://github.com/cyy963/service-station-backend
    cd mr-lvl5-m5-backend
    ```
 
