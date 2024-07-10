@@ -26,6 +26,10 @@ This is a project based on Z, a fuel provider in New Zealand. It allows users to
    ```sh
    npm run dev
    ```
+### MongoDB CLI commands
+#### zDB update
+#### zDB seed
+#### zDB delete
 
 ## Contributors
 
