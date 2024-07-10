@@ -1,4 +1,4 @@
-# Z STATION APP
+# Z STATION WEBSITE
 
 This is a project based on Z, a fuel provider in New Zealand. It allows users to plan journeys and find Z stations along their specified route, as well as look up fuel prices at Z stations.
 <br/>This repo contains the service station data and server.
