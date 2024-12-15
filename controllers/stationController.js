@@ -1,4 +1,4 @@
-const Station = require('../models/station');
+const Station = require("../models/station");
 
 async function seedStations() {
   const data = [
@@ -213,6 +213,27 @@ async function deleteStations() {
   console.log('Station data deleted!');
 }
 
+async function getStations(req, res) {
+  try {
+    const stations = await Station.find({});
+    res.json(stations);
+  } catch (err) {
+    res.status(500).send(err.message);
+  }
+}
+
+async function getStationById(req, res) {
+  try {
+    const { id } = req.params;
+    const station = await Station.findById(id);
+    if (!station) {
+      return res.status(404).send("Station not found");
+    }
+    res.json(station);
+  } catch (err) {
+    res.status(500).send(err.message);
+  }
+}
 async function search(req, res) {
   console.log("Search API has been hit!");
   const { query } = req.query;
@@ -234,20 +255,12 @@ async function search(req, res) {
   } catch (err) {
     res.status(500).send(err.message);
   }
-}
-
-const getStations = async (req, res) => {
-  try {
-    const stations = await Station.find(); // Adjust query based on your requirements
-    res.json(stations);
-  } catch (error) {
-    res.status(500).json({ message: error.message });
-  }
 };
 
 module.exports = {
   seedStations,
   deleteStations,
-  search,
-  getStations
+  getStations,
+  getStationById,
+  search
 };
